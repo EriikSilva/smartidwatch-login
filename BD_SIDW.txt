@@ -1,0 +1,29 @@
+
+
+
+<!-----BANCO DE DADOS DO PROJETO------>
+
+
+
+
+CREATE DATABASE db_sidw;
+
+Após isso criar tabela usuarios abaixo
+
+CREATE TABLE usuarios(
+
+id int not null AUTO_INCREMENT PRIMARY KEY,
+nome varchar(40) not null,
+senha varchar(32) not null,
+cep int not null,
+rua varchar(70) not null,
+complemento varchar(70),
+cpf int not null,
+rg int not null,
+cnh int,
+email varchar(50) not null
+
+);
+
+
+depois é so testar

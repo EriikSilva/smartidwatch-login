@@ -19,11 +19,11 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bem-Vindo - ID WATCH</title>
 
-    <link rel="icon"  href="SIDW/img/logo-governo.png">
+    <link rel="icon"  href="img/logo-governo.png">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="SIDW/css/estiloLogin.css">
+    <link rel="stylesheet" type="text/css" href=" css/estiloLogin.css">
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -84,7 +84,7 @@
       <div class="jumbotron"> <!--Formatação da parte cinza-->
         <div align="center"> 
        
-          <img class="formatacao-imagem" src="SIDW/img/user.png">
+          <img class="formatacao-imagem" src="img/user.png">
           <br><br><br>
 
           <h1 align="center">Bem-Vindo <?= $_SESSION['nome']; ?></h1>

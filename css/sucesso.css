@@ -1,0 +1,109 @@
+/*
+*
+* 
+* Estilo da pagina index.html
+*
+*/
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	background: url('../img/brasilia.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+a:hover{
+	color:white;
+	background: grey;
+}
+
+/*****************Classes da barra de navegação**********************/
+.cor-titulo{
+
+	color:white;
+
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.img-logo{
+	height:60px;
+	width: 60px;
+	display: block;
+	background: url('../img/relogio.png') no-repeat;
+
+	background-size: 50px;
+	color: transparent;
+}
+nav.navbar-edit{
+	
+	padding: 15px 0px;
+	background: rgba(79,79,79,1.0);
+	margin-bottom: 10px;
+
+}
+.navbar-brand{
+	padding: 5px 15px;
+	
+	
+}
+
+
+.formatacao-menu{
+	width: 100%;
+	height: 100px;
+	margin-bottom: 10px;
+	border:5px outset black;
+	
+
+
+}
+
+
+.formatacao-texto{
+	padding: 10px;
+
+}
+
+.formatacao-logo{
+	
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	margin-top: 0;	
+
+}
+
+.formatacao-relogio{
+	width: 200px;
+	height: 200px;
+	float: right;
+
+}
+.rodape{
+	width: 100%;
+	height: 130px;
+	border-style: groove;
+	background-color: grey;
+	font-size: 15px;
+	font-family:"Georgia", Georgia, Serif;
+	padding-top: 20px;
+}
+
+
+.formatacao-imagem{
+	width: 200px;
+	height: 200px;
+	
+	float: left;
+}
